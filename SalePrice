@@ -1,0 +1,29 @@
+#Python 3.7.4
+#Levi McCann
+#CIS 2187
+#11/8/2019
+# SALES PRICE (ex22)
+#https://repl.it/@lmccann42/SalePrice
+
+#Global variable to compute 20% discount simplified
+DISCOUNT = 0.8
+
+def main():
+    #gather variable input
+    price = float(input("Enter a item\'s regular price: "))
+
+    #Do not need this line below
+    #num2 = float(input("Enter another number: "))
+    sale = price * DISCOUNT
+    displayDiscount(price)
+    print(f"The sales price is: ${sale:.2f}.")
+
+def displayDiscount(price):
+  #Convert Item amout to sales price
+  #Return price variable computed to main  
+    return price * DISCOUNT
+    
+#Print the output of the displayDiscount 
+
+
+main()
