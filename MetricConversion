@@ -1,0 +1,31 @@
+#Levi McCann
+#CIS 2187
+#11/8/2019
+# Numbers (3-4)
+
+
+
+
+
+def main():
+    #gather variable input
+    num1 = float(input("Enter a number to convert inches to centimeters and gallons to liters: "))
+    #Do not need this line below
+    #num2 = float(input("Enter another number: "))
+    displayCentInch(num1)
+    diplayGalLit(num1)
+
+
+def displayCentInch(num1):
+  #Convert iches to centimeters
+    centimeters = num1 * 2.54
+  #Print the output of the function
+    print(f"{num1} inches is {centimeters:.2f} centimeters.")
+
+
+def diplayGalLit(num1):
+  #convert gallons to liters
+  liters = num1 * 3.7854
+  print(f"{num1} gallons is {liters:.3f} liters.")
+
+main()
