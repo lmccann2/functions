@@ -1,0 +1,23 @@
+#Levi McCann
+#CIS 2187
+#11/8/2019
+# Bookstore Credit
+
+
+
+
+
+def main():
+    #gather variable input
+    name = input("Enter Your name: ")
+    gpa = float(input("Please enter your GPA: "))
+    calcCredit(name, gpa)
+
+
+def calcCredit(name, gpa):
+
+    credit = gpa * 10
+#Print the output of the function
+    print(f"{name} has GPA {gpa} so your credit is ${credit:.2f}")
+
+main()
